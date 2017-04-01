@@ -12,12 +12,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@mipmap/ic_empty"
-        />
+        android:visibility="gone" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dip"
+        android:layout_marginTop="8dp"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
 
@@ -27,7 +27,7 @@
             android:layout_height="24dp"
             android:layout_gravity="center"
             android:layout_marginRight="8dp"
-           />
+            android:visibility="gone" />
 
         <TextView
             android:id="@+id/tv_tips"
@@ -36,7 +36,8 @@
             android:gravity="center"
             android:lines="2"
             android:text="加载失败"
-            android:textSize="14dp" />
+            android:textSize="14dp"
+            android:visibility="gone" />
 
     </LinearLayout>
 </LinearLayout>

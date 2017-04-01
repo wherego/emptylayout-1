@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action1"
+        android:title="changeToLoading" />
+    <item
+        android:id="@+id/action2"
+        android:title="changeToDataSetEmpty" />
+    <item
+        android:id="@+id/action3"
+        android:title="changeToInterfaceError" />
+    <item
+        android:id="@+id/action4"
+        android:title="changeToNetWorkError" />
+    <item
+        android:id="@+id/action5"
+        android:title="changeToHide" />
+</menu>
